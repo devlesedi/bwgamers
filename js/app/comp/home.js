@@ -3,8 +3,8 @@ define(["react", "showdown", "text!templates/home.html"], function(React, Showdo
 		render: function() {
 			var data = [
 			{title: 'Add the video games you no longer play.', description: "Adding a game is super easy. Simply select your video games condition and price to sell. When your video game finds a buyer, you'll be notified by email."},
-			{title: 'Another member will come along and buy it.', description: "You'll ship them the video game (we'll help you through the complete process!) for a virtual currency called 'coins'."},
-			{title: "Spend earned coins on video games you've longed for!", description: "With over 32,600 video games on 38 platforms, you'll always have something great to play. And best of all, when you're finished, just trade it for another!"}
+			{title: 'Another member will come along and buy it.', description: "You'll ship them the video game."},
+			{title: "Increase your reputation!", description: "After a successful trade, your buyer can leave feedback to commend on your services.!"}
 			];
 			var converter = new Showdown.converter();
 			var compiled = _.template(homeTpl);
